@@ -1,0 +1,33 @@
+.wrapper {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s cubic-bezier(0.25, 0.1, 0.25, 1),
+    background-color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.wrapper:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px;
+}
